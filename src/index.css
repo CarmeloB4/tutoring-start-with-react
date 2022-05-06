@@ -1,13 +1,67 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li {
+  list-style: none;
+  margin: 1rem;
+}
+
+button {
+  cursor: pointer;
+  background-color: darkorange;
+  padding: 0.4rem;
+  border: none;
+  color: white;
+  border-radius: 6px;
+}
+
+.Topbar,
+.Footer {
+  height: 60px;
+  background-color: black;
+  width: 100vw;
+}
+
+.Card {
+  width: 200px;
+  height: 240px;
+  border: 2px solid black;
+}
+
+.Card > img {
+  width: 100%;
+  height: 60%;
+}
+
+.Card > h1 {
+  font-size: 22px;
+}
+
+.Home {
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Detail {
+  width: 800px;
+  height: 600px;
+  border: 2px solid black;
+}
+
+.Detail > img {
+  height: 60%;
+}
+
+.Detail > button {
+  margin: 1rem;
+}
+
+.Card-list {
+  display: flex;
+  flex-direction: column;
 }
