@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Funko Shop 🛒
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Questa è l'applicazione che abbiamo sviluppato oggi a lezione 💪
+
+## Challenge 🚴
+
+Piccola challange, in Home troviamo un div vuoto, in questa applicazione manca il nostro carrello, sapresti farlo? 
 
 ## Available Scripts
 
